@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table class="table">
+  <tbody>
+    <tr>
+      <td>Размер</td>
+      <td>{{ product.size }}</td>
+    </tr>
+      <tr>
+      <td>Тип угля</td>
+      <td>{{ product.coal_type }}</td>
+    </tr>
+      <tr>
+      <td>Вес</td>
+      <td>{{ product.weight }}</td>
+    </tr>
+      <tr>
+      <td>Производитель</td>
+      <td>{{ product.producer }}</td>
+    </tr>
+      <tr>
+      <td>Время горения</td>
+      <td>{{ product.burning_time }}</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+
+<!--    size = models.CharField(max_length=255, verbose_name="Размер")-->
+<!--    coal_type = models.CharField(max_length=255, verbose_name="Тип угля")-->
+<!--    weight = models.CharField(max_length=255, verbose_name="Масса")-->
+<!--    producer = models.CharField(max_length=255, verbose_name="Производитель")-->
+<!--    burning_time = models.CharField(max_length=255, verbose_name="Время горения")-->
